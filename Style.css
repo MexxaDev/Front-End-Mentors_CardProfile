@@ -1,0 +1,48 @@
+body{
+    text-aling:18px;
+}
+.MainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ContenedorCard{
+    background-color: #264653;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 13%;
+}
+.ContenedorBanner{
+    background-color: #2a9d8f;
+    width: 100%;
+    height: 35%;
+}
+.ContenedorFotoPerfil{
+    background-color: #e9c46a;
+    width: 27%;
+    height: 27%;
+    text-align: center;
+    margin-left: 37%;
+    margin-top: -15%;
+    border-radius: 300px;
+}
+.ContenedorTextos{
+    text-align: center;
+    background-color: #f4a261;
+    margin-left: 17%;
+    margin-top: 3%;
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-right: 200px;
+}
+.ContenedorEstadisticas{
+    color: whitesmoke;
+    background-color: #e76f51;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+    margin: 5px
+}
